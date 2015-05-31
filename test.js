@@ -1,8 +1,8 @@
-import nextFrame from "../src/nextFrame";
+import nextFrame from "./index.js";
 import assert from "assert";
 
 describe("nextFrame", function(){
-  it("should return -1 when the value is not present", function(done){
+  it("should be async", function(done){
     var i = 0;
     nextFrame(function() {
       i++;
