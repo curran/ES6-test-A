@@ -1,6 +1,6 @@
 {
   "name": "es6test-a",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A test for how to work with ES6 modules.",
   "main": "index.js",
   "scripts": {
